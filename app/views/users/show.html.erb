@@ -10,7 +10,7 @@
 
 <div class="card shadow-lg border-0 p-4 text-center mx-auto m-4" style="max-width: 400px; border-radius: 10px;">
   <div class="mb-4">
-    <%= image_tag @user.get_profile_image(120, 120), class: "rounded-circle border shadow-sm" %>
+    <%= image_tag @user.get_profile_image(120, 120), class: "rounded-circle border shadow-sm", size: "120x120" %>
   </div>
   <h3 class="fw-bold mb-2 text-primary"><%= @user.name %></h3>
   <p class="text-muted mb-2"><%= @user.email %></p>
